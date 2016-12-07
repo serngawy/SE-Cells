@@ -1,4 +1,0 @@
-let android_odir='/Users/mohamedel-serngawy/cells/SE-Cells//'
-let android_modpath='/Users/mohamedel-serngawy/cells/SE-Cells///KERNEL_MODULES'
-let android_arch=''
-let android_cc_cross='arm-eabi-'
