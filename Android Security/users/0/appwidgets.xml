@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<gs version="1">
+<p pkg="com.android.vending" cl="com.google.android.finsky.widget.consumption.NowPlayingWidgetProvider" />
+<p pkg="com.android.vending" cl="com.google.android.finsky.widget.recommendation.RecommendedWidgetProvider" />
+<h pkg="com.android.launcher" id="400" />
+<g id="1" h="0" p="0" min_width="2e8" min_height="128" max_width="446" max_height="194" host_category="1" />
+<g id="2" h="0" p="1" min_width="168" min_height="b8" max_width="1fe" max_height="ee" host_category="1" />
+<g id="3" h="0" p="1" min_width="168" min_height="b8" max_width="1fe" max_height="ee" host_category="1" />
+</gs>

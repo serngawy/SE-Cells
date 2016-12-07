@@ -1,0 +1,1283 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<package-restrictions>
+    <pkg name="com.htsu.hsbcpersonalbanking" stopped="true" nl="true" />
+    <pkg name="com.google.android.ears" enabled="2" enabledCaller="com.google.android.partnersetup" />
+    <pkg name="com.thesimplest.ocr" stopped="true" nl="true" />
+    <pkg name="com.google.android.apps.walletnfcrel" enabled="2" enabledCaller="com.google.android.partnersetup" />
+    <pkg name="com.sand.airdroid" stopped="true" nl="true" />
+    <pkg name="com.renard.ocr" stopped="true" nl="true" />
+    <pkg name="com.amazon.windowshop" stopped="true" nl="true" />
+    <pkg name="com.google.android.email">
+        <disabled-components>
+            <item name="com.android.email.service.EmailUpgradeBroadcastReceiver" />
+            <item name="com.android.email.service.LegacyEasAuthenticatorService" />
+            <item name="com.android.email.service.AttachmentDownloadService" />
+            <item name="com.android.email.service.LegacyEmailAuthenticatorService" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.flyersoft.moonreader" stopped="true" nl="true" />
+    <pkg name="com.pcfinancial.mobile" stopped="true" nl="true" />
+    <pkg name="com.aurorasoftworks.quadrant.ui.standard" stopped="true" nl="true" />
+    <pkg name="com.adobe.air" stopped="true" nl="true" />
+    <pkg name="com.sunfuturetechno.takescreenshot" stopped="true" nl="true" />
+    <pkg name="com.google.android.gms">
+        <enabled-components>
+            <item name="com.google.android.location.fused.FusedLocationService" />
+        </enabled-components>
+        <disabled-components>
+            <item name="com.google.android.gms.ocr.SecuredCreditCardOcrActivity" />
+            <item name="com.google.android.gms.people.pub.PeopleProfileActionGatewayActivity" />
+            <item name="com.google.android.gms.wallet.receiver.PackageAddedBroadcastReceiver" />
+            <item name="com.google.android.gms.mdm.receivers.ConnectivityReceiver" />
+            <item name="com.google.android.gms.mdm.receivers.AccountsChangedReceiver" />
+            <item name="com.google.android.gms.analytics.service.AnalyticsService" />
+            <item name="com.google.android.gms.app.receiver.OneTimeInitializerReceiver" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.google.android.setupwizard">
+        <disabled-components>
+            <item name="com.google.android.setupwizard.MobileDataActivity$HfaChangeReceiver" />
+            <item name="com.google.android.setupwizard.GservicesChangedReceiver" />
+            <item name="com.google.android.setupwizard.MobileConnectivityChangeReceiver" />
+            <item name="com.google.android.setupwizard.LoginAccountsMissingReceiver" />
+            <item name="com.google.android.setupwizard.SetupWizardActivity" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.liveov.shotuxtrial" stopped="true" nl="true" />
+    <pkg name="com.appstyle.gosmartocr" stopped="true" nl="true" />
+    <pkg name="com.android.settings">
+        <disabled-components>
+            <item name="com.android.settings.CryptKeeper" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.zpwebsites.linuxonandroid" stopped="true" nl="true" />
+    <pkg name="com.google.android.googlequicksearchbox">
+        <enabled-components>
+            <item name="com.google.android.search.core.summons.icing.InternalIcingCorporaProvider$ApplicationLaunchReceiver" />
+        </enabled-components>
+        <disabled-components>
+            <item name="com.android.launcher3.UninstallShortcutReceiver" />
+            <item name="com.google.android.launcher.GelWallpaperPickerActivity" />
+            <item name="com.google.android.velvet.tg.SetupWizardOptInIntroActivity" />
+            <item name="com.android.launcher3.LauncherProvider" />
+            <item name="com.google.android.launcher.MarketUpdateReceiver" />
+            <item name="com.android.launcher3.UserInitializeReceiver" />
+            <item name="com.android.launcher3.InstallShortcutReceiver" />
+            <item name="com.android.launcher3.PreloadReceiver" />
+            <item name="com.android.launcher3.WallpaperCropActivity" />
+            <item name="com.android.launcher3.PackageChangedReceiver" />
+            <item name="com.google.android.launcher.GEL" />
+            <item name="com.google.android.voicesearch.handsfree.TrampolineActivity" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.google.android.music">
+        <enabled-components>
+            <item name="com.android.music.MediaAppWidgetProvider" />
+            <item name="com.google.android.music.Settings.NetworkUsage" />
+        </enabled-components>
+        <disabled-components>
+            <item name="com.google.android.music.tutorial.SignupStatus$NetworkChangedReceiver" />
+            <item name="com.google.android.music.leanback.AutoCacheSchedulingService$ActionReceiver" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.mobilerise.WidgetTimer" stopped="true" nl="true" />
+    <pkg name="com.google.android.apps.unveil" stopped="true" nl="true" />
+    <pkg name="com.google.android.inputmethod.latin">
+        <disabled-components>
+            <item name="com.android.inputmethod.latin.setup.SetupActivity" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.greenecomputing.linpack" stopped="true" nl="true" />
+    <pkg name="co.vine.android" stopped="true" nl="true" />
+    <pkg name="com.matpergo.androcr" stopped="true" nl="true" />
+    <pkg name="com.google.android.apps.maps" enabled="1" />
+    <pkg name="com.geeksoft.screenshot" stopped="true" nl="true" />
+    <pkg name="com.antutu.ABenchMark" stopped="true" nl="true" />
+    <pkg name="jp.co.omronsoft.iwnnime.ml" enabled="4" enabledCaller="android" />
+    <pkg name="com.quicinc.vellamo" stopped="true" nl="true" />
+    <pkg name="ru.meefik.linuxdeploy" stopped="true" nl="true" />
+    <pkg name="com.android.musicfx">
+        <enabled-components>
+            <item name="com.android.musicfx.ControlPanelReceiver" />
+        </enabled-components>
+    </pkg>
+    <pkg name="com.bnpp.easybanking" stopped="true" nl="true" />
+    <pkg name="com.google.android.videos">
+        <disabled-components>
+            <item name="com.google.android.videos.pinning.TransferService$Receiver" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.aide.ui" stopped="true" nl="true" />
+    <pkg name="com.google.android.inputmethod.pinyin" enabled="4" enabledCaller="android" />
+    <pkg name="ru.zdevs.zarchiver" stopped="true" nl="true" />
+    <pkg name="com.google.android.gallery3d">
+        <disabled-components>
+            <item name="com.android.camera.DisableCameraReceiver" />
+            <item name="com.android.gallery3d.onetimeinitializer.AutoSyncCarryOverFromICSReceiver" />
+            <item name="com.google.android.picasasync.ConnectivityReceiver" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.google.android.partnersetup">
+        <disabled-components>
+            <item name="com.google.android.partnersetup.PhoneStateReceiver" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.adobe.reader" stopped="true" nl="true" />
+    <pkg name="org.atai.TessUI" stopped="true" nl="true" />
+    <pkg name="com.icecoldapps.screenshotultimate" stopped="true" nl="true" />
+    <pkg name="stericson.busybox" stopped="true" nl="true" />
+    <pkg name="com.google.android.talk">
+        <enabled-components>
+            <item name="com.google.android.apps.babel.service.NoConfirmationSmsSendService" />
+        </enabled-components>
+        <disabled-components>
+            <item name="com.google.android.apps.babel.phone.ShareIntentSmsOnlyActivity" />
+            <item name="com.google.android.apps.babel.sms.AbortSmsReceiver" />
+            <item name="com.google.android.apps.babel.sms.SmsReceiver" />
+            <item name="com.google.android.apps.babel.realtimechat.RequestWriter$NetworkStateReceiver" />
+            <item name="com.google.android.apps.babel.sms.AbortMmsWapPushReceiver" />
+            <item name="com.google.android.apps.babel.sms.MmsWapPushReceiver" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.ifs.banking.fiid3627" stopped="true" nl="true" />
+    <pkg name="com.google.android.apps.enterprise.dmagent" enabled="4" enabledCaller="com.google.android.onetimeinitializer" />
+    <pkg name="com.google.android.inputmethod.korean" enabled="4" enabledCaller="android" />
+    <pkg name="com.twitter.android" stopped="true" nl="true" />
+    <pkg name="com.ebay.mobile" stopped="true" nl="true" />
+    <pkg name="com.squareup" stopped="true" nl="true" />
+    <pkg name="com.desjardins.mobile" stopped="true" nl="true" />
+    <pkg name="ca.bnc.android" stopped="true" nl="true" />
+    <pkg name="com.google.zxing.client.android" stopped="true" nl="true" />
+    <pkg name="com.mountqi.quickscreenshot8" stopped="true" nl="true" />
+    <pkg name="com.estrongs.android.taskmanager" stopped="true" nl="true" />
+    <pkg name="com.google.android.apps.plus">
+        <enabled-components>
+            <item name="com.google.android.apps.plus.service.CameraMonitor" />
+        </enabled-components>
+    </pkg>
+    <pkg name="com.android.vending">
+        <enabled-components>
+            <item name="com.android.vending.AssetBrowserActivity" />
+            <item name="com.google.android.finsky.receivers.BootCompletedReceiver" />
+            <item name="com.google.android.finsky.receivers.AccountsChangedReceiver" />
+            <item name="com.google.android.finsky.receivers.PackageMonitorReceiver$RegisteredReceiver" />
+        </enabled-components>
+        <disabled-components>
+            <item name="com.google.android.finsky.activities.DebugActivity" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.digia.Qt5Everywhere" stopped="true" nl="true" />
+    <pkg name="com.google.android.gm">
+        <enabled-components>
+            <item name="com.google.android.gm.CreateShortcutActivityGmail" />
+            <item name="com.google.android.gm.ComposeActivityGmail" />
+            <item name="com.google.android.gm.widget.GmailWidgetProvider" />
+            <item name="com.google.android.gm.GoogleMailDeviceStartupReceiver" />
+        </enabled-components>
+        <disabled-components>
+            <item name="com.google.android.gm.CreateShortcutActivityGoogleMail" />
+            <item name="com.google.android.gm.widget.GoogleMailWidgetProvider" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.google.android.GoogleCamera">
+        <disabled-components>
+            <item name="com.android.camera.DisableCameraReceiver" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.google.android.youtube">
+        <enabled-components>
+            <item name="com.google.android.apps.youtube.app.prefetch.PrefetchService" />
+            <item name="com.google.android.apps.youtube.app.prefetch.PrefetchService$DeviceStateReceiver" />
+        </enabled-components>
+    </pkg>
+    <pkg name="com.google.earth" enabled="1" />
+    <pkg name="com.google.android.gsf">
+        <disabled-components>
+            <item name="com.google.android.gsf.checkin.CheckinService$TriggerReceiver" />
+            <item name="com.google.android.gsf.update.SystemUpdatePanoActivity" />
+            <item name="com.google.android.gsf.loginservice.MigrateToAccountManagerBroadcastReceiver" />
+            <item name="com.google.android.gsf.update.SystemUpdateService$SecretCodeReceiver" />
+            <item name="com.google.android.gsf.checkin.CheckinService$Receiver" />
+            <item name="com.google.android.gsf.checkin.EventLogService$Receiver" />
+            <item name="com.google.android.gsf.update.SystemUpdateActivity" />
+            <item name="com.google.android.gsf.checkin.CheckinService$SecretCodeReceiver" />
+            <item name="com.google.android.gsf.checkin.EventLogService" />
+            <item name="com.google.android.gsf.checkin.CheckinService" />
+            <item name="com.google.android.gsf.update.SystemUpdateService" />
+            <item name="com.google.android.gsf.update.SystemUpdateService$Receiver" />
+        </disabled-components>
+    </pkg>
+    <pkg name="com.edwardkim.android.screenshotitfree" stopped="true" nl="true" />
+    <pkg name="org.torproject.android" stopped="true" nl="true" />
+    <preferred-activities>
+        <item name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.GalleryActivity" />
+            <set name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/jpeg" />
+                <scheme name="content" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="video/webm" />
+                <scheme name="file" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="video/mpeg4" />
+                <scheme name="https" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.GalleryActivity" />
+            <set name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/vnd.wap.wbmp" />
+                <scheme name="https" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.GalleryActivity" />
+            <set name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/x-ms-bmp" />
+                <scheme name="http" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="video/mp4" />
+                <scheme name="file" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="application/sdp" />
+                <scheme name="content" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.GalleryActivity" />
+            <set name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/jpeg" />
+                <scheme name="file" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="application/vnd.apple.mpegurl" />
+                <scheme name="https" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.editor.PlusEditorActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.filtershow.FilterShowActivity" />
+            <set name="com.google.android.apps.plus/.editor.PlusEditorActivity" />
+            <filter>
+                <action name="android.intent.action.EDIT" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/jpeg" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="audio/mpegurl" />
+                <scheme name="https" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="video/3gpp2" />
+                <scheme name="file" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="video/avi" />
+                <scheme name="http" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="200000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <scheme name="rtsp" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="video/3gpp2" />
+                <scheme name="content" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="video/avi" />
+                <scheme name="https" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="video/avi" />
+                <scheme name="content" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="3">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <set name="com.google.android.music/.AudioPreview" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="audio/x-mpegurl" />
+                <scheme name="http" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.UrlGatewayActivity" match="500000" always="true" set="2">
+            <set name="com.google.android.apps.plus/.phone.UrlGatewayActivity" />
+            <set name="com.android.chrome/com.google.android.apps.chrome.Main" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <scheme name="https" />
+                <auth host="plus.google.com" />
+                <path literal="/" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.GalleryActivity" />
+            <set name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="application/vnd.google.panorama360+jpg" />
+                <scheme name="https" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.GalleryActivity" />
+            <set name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/webp" />
+                <scheme name="http" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="video/webm" />
+                <scheme name="https" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="application/vnd.apple.mpegurl" />
+                <scheme name="http" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="application/x-mpegurl" />
+                <scheme name="http" />
+            </filter>
+        </item>
+        <item name="com.android.chrome/com.google.android.apps.chrome.Main" match="200000" always="true" set="2">
+            <set name="com.android.chrome/com.google.android.apps.chrome.Main" />
+            <set name="org.mozilla.firefox/.App" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.DEFAULT" />
+                <scheme name="http" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="3">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <set name="com.google.android.music/.AudioPreview" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="audio/mpegurl" />
+                <scheme name="http" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.editor.PlusCropActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.filtershow.crop.CropActivity" />
+            <set name="com.google.android.apps.plus/.editor.PlusCropActivity" />
+            <filter>
+                <action name="com.android.camera.action.CROP" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/vnd.wap.wbmp" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.GalleryActivity" />
+            <set name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/jpeg" />
+                <scheme name="https" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.ConversationListActivity" match="100000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.GalleryActivity" />
+            <set name="com.google.android.apps.plus/.phone.ConversationListActivity" />
+            <filter>
+                <action name="android.intent.action.MAIN" />
+                <cat name="android.intent.category.APP_GALLERY" />
+                <cat name="android.intent.category.DEFAULT" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.GalleryActivity" />
+            <set name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="application/vnd.google.panorama360+jpg" />
+                <scheme name="content" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.GalleryActivity" />
+            <set name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/x-ms-bmp" />
+                <scheme name="content" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.GalleryActivity" />
+            <set name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/gif" />
+                <scheme name="content" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.GalleryActivity" />
+            <set name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/png" />
+                <scheme name="content" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="video/3gp" />
+                <scheme name="https" />
+            </filter>
+        </item>
+        <item name="com.android.vending/com.google.android.finsky.activities.MainActivity" match="500000" always="true" set="2">
+            <set name="com.android.vending/com.google.android.finsky.activities.MainActivity" />
+            <set name="com.android.chrome/com.google.android.apps.chrome.Main" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <scheme name="http" />
+                <auth host="play.google.com" />
+                <path prefix="/store" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.editor.PlusCropActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.filtershow.crop.CropActivity" />
+            <set name="com.google.android.apps.plus/.editor.PlusCropActivity" />
+            <filter>
+                <action name="com.android.camera.action.CROP" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/bmp" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.GalleryActivity" />
+            <set name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/bmp" />
+                <scheme name="content" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.GalleryActivity" />
+            <set name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/webp" />
+                <scheme name="file" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.GalleryActivity" />
+            <set name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/bmp" />
+                <scheme name="https" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.GalleryActivity" />
+            <set name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="application/vnd.google.panorama360+jpg" />
+                <scheme name="http" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.GalleryActivity" />
+            <set name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/webp" />
+                <scheme name="content" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="video/mpeg4" />
+                <scheme name="file" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.GalleryActivity" />
+            <set name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/gif" />
+                <scheme name="https" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="video/mp4" />
+                <scheme name="http" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="video/3gp" />
+                <scheme name="content" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="video/mpeg4" />
+                <scheme name="http" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="video/3gpp" />
+                <scheme name="file" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="video/mp4" />
+                <scheme name="https" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.GalleryActivity" />
+            <set name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="application/vnd.google.panorama360+jpg" />
+                <scheme name="file" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.GalleryActivity" />
+            <set name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/x-ms-bmp" />
+                <scheme name="file" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="video/mp4" />
+                <scheme name="content" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.GalleryActivity" />
+            <set name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/gif" />
+                <scheme name="http" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="application/x-mpegurl" />
+                <scheme name="https" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="video/3gp" />
+                <scheme name="file" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.GalleryActivity" />
+            <set name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/x-ms-bmp" />
+                <scheme name="https" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="video/3gp" />
+                <scheme name="http" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="video/webm" />
+                <scheme name="http" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.GalleryActivity" />
+            <set name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/png" />
+                <scheme name="http" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.GalleryActivity" />
+            <set name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/vnd.wap.wbmp" />
+                <scheme name="content" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.editor.PlusEditorActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.filtershow.FilterShowActivity" />
+            <set name="com.google.android.apps.plus/.editor.PlusEditorActivity" />
+            <filter>
+                <action name="android.intent.action.EDIT" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/png" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="video/3gpp" />
+                <scheme name="https" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.GalleryActivity" />
+            <set name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/png" />
+                <scheme name="https" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.GalleryActivity" />
+            <set name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/vnd.wap.wbmp" />
+                <scheme name="http" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.maps/com.google.android.maps.MapsActivity" match="500000" always="true" set="2">
+            <set name="com.google.android.apps.maps/com.google.android.maps.MapsActivity" />
+            <set name="com.android.chrome/com.google.android.apps.chrome.Main" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <scheme name="https" />
+                <auth host="maps.google.com" />
+                <path literal="/" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.editor.PlusCropActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.filtershow.crop.CropActivity" />
+            <set name="com.google.android.apps.plus/.editor.PlusCropActivity" />
+            <filter>
+                <action name="com.android.camera.action.CROP" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/gif" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="video/mpeg4" />
+                <scheme name="content" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.editor.PlusCropActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.filtershow.crop.CropActivity" />
+            <set name="com.google.android.apps.plus/.editor.PlusCropActivity" />
+            <filter>
+                <action name="com.android.camera.action.CROP" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/webp" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.editor.PlusEditorActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.filtershow.FilterShowActivity" />
+            <set name="com.google.android.apps.plus/.editor.PlusEditorActivity" />
+            <filter>
+                <action name="android.intent.action.EDIT" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/gif" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="video/3gpp2" />
+                <scheme name="http" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="video/webm" />
+                <scheme name="content" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.UrlGatewayActivity" match="500000" always="true" set="2">
+            <set name="com.google.android.apps.plus/.phone.UrlGatewayActivity" />
+            <set name="com.android.chrome/com.google.android.apps.chrome.Main" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <scheme name="http" />
+                <auth host="plus.google.com" />
+                <path prefix="/u/" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.maps/com.google.android.maps.MapsActivity" match="500000" always="true" set="2">
+            <set name="com.google.android.apps.maps/com.google.android.maps.MapsActivity" />
+            <set name="com.android.chrome/com.google.android.apps.chrome.Main" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <scheme name="http" />
+                <auth host="maps.google.com" />
+                <path prefix="/maps" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.UrlGatewayActivity" match="500000" always="true" set="2">
+            <set name="com.google.android.apps.plus/.phone.UrlGatewayActivity" />
+            <set name="com.android.chrome/com.google.android.apps.chrome.Main" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <scheme name="https" />
+                <auth host="plus.google.com" />
+                <path prefix="/u/" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="audio/x-mpegurl" />
+                <scheme name="https" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="application/sdp" />
+                <scheme name="https" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.maps/com.google.android.maps.MapsActivity" match="500000" always="true" set="2">
+            <set name="com.google.android.apps.maps/com.google.android.maps.MapsActivity" />
+            <set name="com.android.chrome/com.google.android.apps.chrome.Main" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <scheme name="https" />
+                <auth host="maps.google.com" />
+                <path prefix="/maps" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="application/sdp" />
+                <scheme name="file" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.maps/com.google.android.maps.MapsActivity" match="500000" always="true" set="2">
+            <set name="com.google.android.apps.maps/com.google.android.maps.MapsActivity" />
+            <set name="com.android.chrome/com.google.android.apps.chrome.Main" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <scheme name="http" />
+                <auth host="maps.google.com" />
+                <path literal="/" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="video/3gpp2" />
+                <scheme name="https" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="application/sdp" />
+                <scheme name="http" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.editor.PlusEditorActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.filtershow.FilterShowActivity" />
+            <set name="com.google.android.apps.plus/.editor.PlusEditorActivity" />
+            <filter>
+                <action name="android.intent.action.EDIT" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/webp" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="video/avi" />
+                <scheme name="file" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.GalleryActivity" />
+            <set name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/bmp" />
+                <scheme name="http" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.editor.PlusCropActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.filtershow.crop.CropActivity" />
+            <set name="com.google.android.apps.plus/.editor.PlusCropActivity" />
+            <filter>
+                <action name="com.android.camera.action.CROP" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/x-ms-bmp" />
+            </filter>
+        </item>
+        <item name="com.android.vending/com.google.android.finsky.activities.MainActivity" match="500000" always="true" set="2">
+            <set name="com.android.vending/com.google.android.finsky.activities.MainActivity" />
+            <set name="com.android.chrome/com.google.android.apps.chrome.Main" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <scheme name="https" />
+                <auth host="play.google.com" />
+                <path prefix="/store" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.GalleryActivity" />
+            <set name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/vnd.wap.wbmp" />
+                <scheme name="file" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.editor.PlusEditorActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.filtershow.FilterShowActivity" />
+            <set name="com.google.android.apps.plus/.editor.PlusEditorActivity" />
+            <filter>
+                <action name="android.intent.action.EDIT" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/x-ms-bmp" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.GalleryActivity" />
+            <set name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/jpeg" />
+                <scheme name="http" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.GalleryActivity" />
+            <set name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/bmp" />
+                <scheme name="file" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.UrlGatewayActivity" match="500000" always="true" set="2">
+            <set name="com.google.android.apps.plus/.phone.UrlGatewayActivity" />
+            <set name="com.android.chrome/com.google.android.apps.chrome.Main" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <scheme name="http" />
+                <auth host="plus.google.com" />
+                <path literal="/" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.GalleryActivity" />
+            <set name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/webp" />
+                <scheme name="https" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.editor.PlusEditorActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.filtershow.FilterShowActivity" />
+            <set name="com.google.android.apps.plus/.editor.PlusEditorActivity" />
+            <filter>
+                <action name="android.intent.action.EDIT" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/vnd.wap.wbmp" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="video/3gpp" />
+                <scheme name="content" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.editor.PlusCropActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.filtershow.crop.CropActivity" />
+            <set name="com.google.android.apps.plus/.editor.PlusCropActivity" />
+            <filter>
+                <action name="com.android.camera.action.CROP" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/png" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.GalleryActivity" />
+            <set name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/png" />
+                <scheme name="file" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.VideoViewActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.MovieActivity" />
+            <set name="com.google.android.apps.plus/.phone.VideoViewActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="video/3gpp" />
+                <scheme name="http" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.maps/com.google.android.maps.MapsActivity" match="200000" always="true" set="2">
+            <set name="com.google.earth/.EarthActivity" />
+            <set name="com.google.android.apps.maps/com.google.android.maps.MapsActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <scheme name="geo" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.editor.PlusCropActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.filtershow.crop.CropActivity" />
+            <set name="com.google.android.apps.plus/.editor.PlusCropActivity" />
+            <filter>
+                <action name="com.android.camera.action.CROP" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/jpeg" />
+            </filter>
+        </item>
+        <item name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" match="600000" always="true" set="2">
+            <set name="com.google.android.gallery3d/com.android.gallery3d.app.GalleryActivity" />
+            <set name="com.google.android.apps.plus/.phone.HostPhotoViewIntentActivity" />
+            <filter>
+                <action name="android.intent.action.VIEW" />
+                <cat name="android.intent.category.BROWSABLE" />
+                <cat name="android.intent.category.DEFAULT" />
+                <type name="image/gif" />
+                <scheme name="file" />
+            </filter>
+        </item>
+    </preferred-activities>
+</package-restrictions>
